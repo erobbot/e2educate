@@ -23,9 +23,9 @@ export default function Home() {
 
       {/* Hero */}
       <main className="flex-1 flex flex-col items-center justify-center px-6 pb-20 text-center">
-        <div className="max-w-2xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl font-bold text-white tracking-tight leading-tight mb-4">
-            Simple tools for schools.
+        <div className="max-w-5xl mx-auto">
+          <h1 className="text-4xl sm:text-5xl font-bold text-white tracking-tight leading-tight mb-4 max-w-3xl mx-auto text-balance">
+            Simple tools for schools and local government.
           </h1>
           <p className="text-lg text-slate-400 mb-16 max-w-lg mx-auto">
             We build affordable, focused software for K-12 districts and local
@@ -33,7 +33,43 @@ export default function Home() {
           </p>
 
           {/* Products */}
-          <div className="grid sm:grid-cols-2 gap-6 text-left">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
+            {/* CivicPorch */}
+            <a
+              href="https://civicporch.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block rounded-2xl border border-slate-700/60 bg-slate-800/40 p-6 hover:border-emerald-400/50 hover:bg-slate-800/70 transition-all"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 rounded-xl bg-emerald-500/15 flex items-center justify-center text-emerald-400 text-xl font-bold">
+                  C
+                </div>
+                <h2 className="text-xl font-semibold text-white group-hover:text-emerald-300 transition-colors">
+                  CivicPorch
+                </h2>
+              </div>
+              <p className="text-sm text-slate-400 leading-relaxed mb-4">
+                Meeting software for small towns, townships and districts. Post
+                agendas with proof of posting, get AI-drafted minutes from your
+                recording, and publish accessible public meeting pages.
+              </p>
+              <div className="flex flex-wrap gap-2 text-xs">
+                <span className="px-2 py-1 rounded-md bg-slate-700/60 text-slate-300">
+                  AI Minutes
+                </span>
+                <span className="px-2 py-1 rounded-md bg-slate-700/60 text-slate-300">
+                  Public Portal
+                </span>
+                <span className="px-2 py-1 rounded-md bg-slate-700/60 text-slate-300">
+                  $10/board/mo
+                </span>
+              </div>
+              <span className="inline-block mt-4 text-sm text-emerald-400 group-hover:translate-x-1 transition-transform">
+                Visit CivicPorch &rarr;
+              </span>
+            </a>
+
             {/* AccessEval */}
             <a
               href="https://accesseval.com"

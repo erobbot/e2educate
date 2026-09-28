@@ -9,9 +9,9 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "E2Educate — EdTech Tools for K-12 Schools",
+  title: "E2Educate — Simple Tools for Schools and Local Government",
   description:
-    "E2Educate builds affordable, focused software for K-12 schools and local governments. Accessibility scanning, text-to-speech, and more.",
+    "E2Educate builds affordable, focused software for K-12 schools and local governments. Meeting agendas and AI minutes, accessibility scanning, text-to-speech, and more.",
 };
 
 export default function RootLayout({
